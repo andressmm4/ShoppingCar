@@ -76,11 +76,7 @@ body {
     text-align: center;
     display: block;
     text-transform: uppercase;
-
     color: #fff;
-    background-image: linear-gradient(to right, black 0%, gray 51%, gray 100%);
-    border-color: rgba(204, 241, 255, 0.5);
-    background-clip: inherit;
 }
 
 .btn.close {
@@ -88,36 +84,15 @@ body {
 }
 
 .btn.submit {
-    padding: 0px 46px;
-    background-image: linear-gradient(to right, black 0%, gray 51%, gray 100%);
-    background-size: 200% auto;
-    z-index: 2;
-    display: inline-block;
-    transition: all 400ms ease-out;
-    text-align: center;
-    color: #fff;
-    font-size: 15px;
-    font-family: "Roboto", sans-serif;
-    line-height: 55px;
-    border: 6px solid rgba(204, 241, 255, 0.5);
-    border-radius: 33px;
-    -webkit-transition: all 5s;
-}
-.btn.submit:hover {
-    padding: 0px 46px;
-    background: linear-gradient(to right, gray 0%, black 51%, black 100%);
-    background-size: 200% auto;
-    z-index: 2;
-    display: inline-block;
-    transition: all 400ms ease-out;
-    text-align: center;
-    color: #fff;
-    font-size: 15px;
-    font-family: "Roboto", sans-serif;
-    line-height: 55px;
-    border: 6px solid rgba(204, 241, 255, 0.5);
-    border-radius: 33px;
-    -webkit-transition: all 5s;
+    background: rgba(0, 0, 0, 0.8);
+    border: none;
+    color: white;
+    cursor: pointer;
+    padding: 10px 20px;
+    display: block;
+    width: 50%;
+    font-size: 1em;
+    margin: auto;
 }
 
 .btn.buy,
