@@ -90,13 +90,6 @@ business_paypal = ''; // aquí va tu correo electrónico de paypal
 				img : 'assets/img/mac.jpg',
 				price : 80.00,
 				stock : 4
-			},
-            {
-				id : 10,
-				name : 'MacBook Pro',
-				img : 'assets/img/mac.jpg',
-				price : 80.00,
-				stock : 5
 			}
 		],
 		wrapper = $('.productosWrapper'),
@@ -112,7 +105,7 @@ business_paypal = ''; // aquí va tu correo electrónico de paypal
 				contenido+= '			<h3>'+productos[i].name+' <span class="price">$ '+productos[i].price+' </span></h3>'
 				contenido+= '			<h3>Tenemos: <span class="stock">'+productos[i].stock+'</span></h3>'
 				contenido+= '		</span>'
-				contenido+= '		<a class="large-12 columns btn submit ladda-button prod-'+productos[i].id+'" data-style="slide-right" onclick="app.addtoCart('+productos[i].id+');">Añadir a la canasta</a>'
+				contenido+= '		<a class="large-12 columns btn submit ladda-button prod-'+productos[i].id+'" data-style="slide-right" onclick="app.addtoCart('+productos[i].id+');">Cotizar</a>'
 				contenido+= '		<div class="clearfix"></div>'
 				contenido+= '</div>'
 
